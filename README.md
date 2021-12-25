@@ -1,5 +1,5 @@
 # terminal-pong
-A simple game of pong for Windows terminal
+A simple game of pong for Windows terminal, written in C
 
 ***
 
@@ -17,8 +17,6 @@ Using a terminal with UTF-8 support (such as Windows Terminal) is highly recomme
 * Game speeds up progressively
 * Score of each player is displayed in a header row
 
-***
-
 ## Partially working features
 
 * Game stops and announces winner after 9 points - this is hardcoded in [pong.h](/pong.h)
@@ -28,8 +26,6 @@ Using a terminal with UTF-8 support (such as Windows Terminal) is highly recomme
   * Speed multiplier that is applied each time it speeds up
   * Length of player pads
 * Slope of the ball is also hardcoded, but change a number in a [few](/pong.c#L40) [places](/pong_logic.c#L98) and the game will behave accordingly
-
-***
 
 ## Missing features/bugs
 
