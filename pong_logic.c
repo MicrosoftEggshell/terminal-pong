@@ -23,7 +23,7 @@ void player_up(Game* game, short p){ // moves and draws!
             exit(-10);
     }
 
-    // ALL MORTAL FOOLS WHO QUESTIONS THE MAGIC CONSTANTS SHALL PERISH
+    // ALL MORTAL FOOLS WHO QUESTION THE MAGIC CONSTANTS SHALL PERISH
     // they just work, ok? trial and error never lies.
     CPOS(cx, HEADER_HEIGHT + 2 + game->players[p].pos + game->players[p].len);
     putwchar(L' '); // delete bottom character of pad
