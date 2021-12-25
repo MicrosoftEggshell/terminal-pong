@@ -15,6 +15,7 @@ Using a terminal with UTF-8 support (such as Windows Terminal) is highly recomme
 * Left pad is controlled by W/S, right by up/down arrow keys
 * New characters are only printed when strictly necessary, no reprint of entire screen on every frame
 * Game speeds up progressively
+* Score of each player is displayed in a header row
 
 ***
 
