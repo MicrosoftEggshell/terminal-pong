@@ -5,7 +5,7 @@ A simple 2-player game of pong for Windows terminal, written in C
 
 Using a terminal with UTF-8 support (such as Windows Terminal) is highly recommended - on standard cmd, your ball will be a rectangle (change in [pong_draw.h](/pong_draw.h)).
 
-[Demo video](https://i.imgur.com/7au2jmY.mp4) (Since then I've mostly fixed the bug where the ball erases the pad, and a bot no longer controls the right side.)
+[Demo video](https://i.imgur.com/glBXv4k.mp4)
 
 ***
 
