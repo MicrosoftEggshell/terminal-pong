@@ -52,7 +52,6 @@ void platform_init(void){
 
 short up_pressed(void){
     return GetKeyState(VK_UP) & 0xF000; // GetKeyState returns short; higher order bit determines whether it's pressed
-    ;
 }
 
 short w_pressed(void){
@@ -60,8 +59,7 @@ short w_pressed(void){
 }
 
 short s_pressed(void){
-    return GetKeyState('S') & 0xF000; // GetKeyState returns short; higher order bit determines whether it's pressed
-    ;
+    return GetKeyState('S') & 0xF000;
 }
 
 short down_pressed(void){
@@ -75,7 +73,7 @@ void platform_init(void){}
 
 #else // end POSIX
 void platform_init(void){
-    printf("What the fuck sort of OS are you running\nDon't even try this on Android or whatever\n");
+    printf("What the fuck sort of OS are you running\n");
     exit(1);
 }
 #endif // end OS detection
